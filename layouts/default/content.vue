@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="h-[10vh]"></div>
+  <div class="p-10 flex-1">
+    <slot />
+  </div>
 </template>
 <style scoped></style>
