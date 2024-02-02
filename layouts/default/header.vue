@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
-const isDark = useDark()
+const isDark = useDark();
 
 function onClick() {
-  isDark.value = !isDark.value
+  isDark.value = !isDark.value;
 }
 </script>
 
@@ -33,40 +32,64 @@ function onClick() {
                 <AvatarFallback>S</AvatarFallback>
               </Avatar>
               <div class="space-y-1">
-                <div> Shellingfordly </div>
-                <div> Shellingfordly@qq.com </div>
+                <div>Shellingfordly</div>
+                <div>Shellingfordly@qq.com</div>
               </div>
             </div>
           </CardHeader>
           <Separator />
           <div class="p-2 space-y-2">
             <Button class="w-full text-left" variant="ghost">
-              <NuxtLink class="text-left w-full" to="https://github.com/shellingfordly/softly" target="_blank">
-                Github
+              <NuxtLink
+                class="text-left w-full"
+                to="https://github.com/shellingfordly/softly"
+                target="_blank"
+              >
+                Softly Github
+              </NuxtLink>
+            </Button>
+
+            <Button class="w-full text-left" variant="ghost">
+              <NuxtLink
+                class="text-left w-full"
+                to="https://nuxt.com/"
+                target="_blank"
+              >
+                Nuxt
               </NuxtLink>
             </Button>
             <Button class="w-full text-left" variant="ghost">
-              <div class="text-left w-full">Set status</div>
+              <NuxtLink
+                class="text-left w-full"
+                to="https://www.shadcn-vue.com/"
+                target="_blank"
+              >
+                Shadcn-vue
+              </NuxtLink>
             </Button>
             <Button class="w-full text-left" variant="ghost">
-              <div class="text-left w-full">Profile & account</div>
-            </Button>
-            <Button class="w-full text-left" variant="ghost">
-              <div class="text-left w-full">Setting</div>
+              <NuxtLink
+                class="text-left w-full"
+                to="https://vueuse.org/"
+                target="_blank"
+              >
+                Vueuse
+              </NuxtLink>
             </Button>
           </div>
           <Separator />
           <div class="p-2">
             <Button class="w-full text-left" variant="ghost">
+              <NuxtLink class="text-left w-full" to="/about">
+                About
+              </NuxtLink>
+            </Button>
+            <Button class="w-full text-left" variant="ghost">
               <div class="text-left w-full">Sign out</div>
             </Button>
           </div>
-
         </PopoverContent>
-
       </Popover>
-
-
     </div>
   </div>
 </template>

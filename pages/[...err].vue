@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
-  <ScrollArea class="h-[85vh] flex-1 p-8 pt-6">
-    <slot />
-  </ScrollArea>
+  <div class="w-full pt-40 text-center">
+    404
+  </div>
 </template>
 <style scoped></style>

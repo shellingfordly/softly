@@ -2,7 +2,7 @@
 const route = useRoute();
 
 const getVariant = (path: string) =>
-  route.path === path ? undefined : "ghost";
+  route.path === path ? "secondary" : "ghost";
 
 const menus = useMenu();
 </script>

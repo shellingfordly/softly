@@ -1,37 +1,34 @@
 
 export function useMenu() {
 
-  // const router = useRouter()
-  // const routes = router.getRoutes()
-
   return [
     {
-      name: "Home",
+      name: "Dashboard",
       path: "/"
     },
     {
-      name: "Invoices",
-      path: "/invoices"
+      name: "Cards",
+      path: "/cards"
     },
     {
-      name: "Clients",
-      path: "/clients"
+      name: "Tasks",
+      path: "/tasks"
     },
     {
-      name: "Products",
-      path: "/products"
+      name: "Playground",
+      path: "/playground"
     },
     {
-      name: "Messages",
-      path: "/messages"
+      name: "Forms",
+      path: "/forms"
     },
     {
-      name: "Setting",
-      path: "/setting"
+      name: "Music",
+      path: "/music"
     },
     {
-      name: "Help",
-      path: "/help"
+      name: "About",
+      path: "/about"
     },
   ]
 
