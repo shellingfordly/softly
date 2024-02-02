@@ -2,6 +2,10 @@
 
 A softly web software of admin site.
 
+[🖥 Online Preview](https://softly-two.vercel.app/)
+
+![preview_light](./assets/preview_light.png)
+
 ## Setup
 
 Make sure to install the dependencies:
@@ -32,4 +36,18 @@ Locally preview production build:
 pnpm run preview
 ```
 
-Check out the [deployment documentation]() for more information.
+## Preparation
+
+- [Nuxt3](https://nuxt.com/)
+- [shadcn-vue](https://www.shadcn-vue.com/)
+- [vueuse](https://vueuse.org/)
+
+## Preview
+
+### light mode
+
+![preview_light](./assets/preview_light.png)
+
+### dark mode
+
+![preview_dark](./assets/preview_dark.png)
