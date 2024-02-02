@@ -1,17 +1,29 @@
 <script setup lang="ts">
-const menu = useMenu();
+const route = useRoute();
+
+const getVariant = (path: string) =>
+  route.path === path ? undefined : "ghost";
+
+const menus = useMenu();
 </script>
 <template>
-  <div class="w-[200px] h-full border-r-2">
-    slider
-    <MenubarContent>
-      <MenubarItem> New Tab <MenubarShortcut>⌘T</MenubarShortcut> </MenubarItem>
-      <MenubarItem>New Window</MenubarItem>
-      <MenubarSeparator />
-      <MenubarItem>Share</MenubarItem>
-      <MenubarSeparator />
-      <MenubarItem>Print</MenubarItem>
-    </MenubarContent>
+  <div class="w-[300px] p-10 h-full">
+    <div class="flex items-center p-2 pb-20 space-x-3">
+      <Avatar class="p-1">
+        <AvatarImage src="/logo.svg" alt="@radix-vue" />
+      </Avatar>
+      <span>SOFTLY</span>
+    </div>
+    <div class="p-2 space-y-3">
+      <Button
+        v-for="menu in menus"
+        @click="$router.push(menu.path)"
+        class="w-full text-left"
+        :variant="getVariant(menu.path)"
+      >
+        <div class="text-left w-full">{{ menu.name }}</div>
+      </Button>
+    </div>
   </div>
 </template>
 <style scoped></style>

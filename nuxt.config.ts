@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt"],
+  modules: ["@nuxtjs/tailwindcss", '@vueuse/nuxt', "shadcn-nuxt"],
   imports: {
     dirs: ["composables/**", "lib/**"],
   },

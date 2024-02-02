@@ -1,7 +1,73 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+const isDark = useDark()
+
+function onClick() {
+  isDark.value = !isDark.value
+}
+</script>
+
 <template>
-  <div class="h-[10vh] flex border-b-2">
-    <span class="text-2xl">SOFTLY</span>
+  <div class="h-[15vh] flex p-5 justify-between items-center">
+    <div>
+      <Input class="w-[500px]" placeholder="search" />
+    </div>
+
+    <div class="flex items-center space-x-1">
+      <Toggle aria-label="Toggle italic" @click="onClick">
+        B
+      </Toggle>
+
+      <Popover>
+        <PopoverTrigger>
+          <Avatar class="p-1">
+            <AvatarImage src="/logo.svg" alt="@radix-vue" />
+            <AvatarFallback>S</AvatarFallback>
+          </Avatar>
+        </PopoverTrigger>
+        <PopoverContent>
+          <CardHeader>
+            <div class="flex items-center">
+              <Avatar class="p-1 mr-5">
+                <AvatarImage src="/logo.svg" alt="@radix-vue" />
+                <AvatarFallback>S</AvatarFallback>
+              </Avatar>
+              <div class="space-y-1">
+                <div> Shellingfordly </div>
+                <div> Shellingfordly@qq.com </div>
+              </div>
+            </div>
+          </CardHeader>
+          <Separator />
+          <div class="p-2 space-y-2">
+            <Button class="w-full text-left" variant="ghost">
+              <NuxtLink class="text-left w-full" to="https://github.com/shellingfordly/softly" target="_blank">
+                Github
+              </NuxtLink>
+            </Button>
+            <Button class="w-full text-left" variant="ghost">
+              <div class="text-left w-full">Set status</div>
+            </Button>
+            <Button class="w-full text-left" variant="ghost">
+              <div class="text-left w-full">Profile & account</div>
+            </Button>
+            <Button class="w-full text-left" variant="ghost">
+              <div class="text-left w-full">Setting</div>
+            </Button>
+          </div>
+          <Separator />
+          <div class="p-2">
+            <Button class="w-full text-left" variant="ghost">
+              <div class="text-left w-full">Sign out</div>
+            </Button>
+          </div>
+
+        </PopoverContent>
+
+      </Popover>
+
+
+    </div>
   </div>
 </template>
 <style scoped></style>
