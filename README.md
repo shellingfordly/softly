@@ -41,6 +41,7 @@ pnpm run preview
 - [Nuxt3](https://nuxt.com/)
 - [shadcn-vue](https://www.shadcn-vue.com/)
 - [vueuse](https://vueuse.org/)
+- [iconify](https://iconify.design/)
 
 ## Preview
 
