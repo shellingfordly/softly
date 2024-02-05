@@ -45,7 +45,7 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
         @click="table.resetColumnFilters()"
       >
         Reset
-        <span class="iconify ml-2 h-4 w-4" data-icon="radix-icons:cross-2" />
+        <span class="iconify ml-2 h-4 w-4 i-radix-icons-cross-2" />
       </Button>
     </div>
     <DataTableViewOptions :table="table" />

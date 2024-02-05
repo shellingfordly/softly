@@ -1,10 +1,11 @@
 const animate = require("tailwindcss-animate")
+const { iconsPlugin, getIconCollections } = require("@egoist/tailwindcss-icons")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   safelist: ["dark"],
-  
+
   theme: {
     container: {
       center: true,
@@ -80,5 +81,13 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [animate, iconsPlugin(
+    {
+      collections: getIconCollections([
+        "mdi",
+        "radix-icons",
+        "material-symbols"
+      ])
+    }
+  )],
 }

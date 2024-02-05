@@ -19,27 +19,27 @@ export const statuses = [
   {
     value: 'backlog',
     label: 'Backlog',
-    icon: h("span", { class: "iconify", 'data-icon': "radix-icons:question-mark-circled" }),
+    icon: h("span", { class: "i-radix-icons-question-mark-circled" }),
   },
   {
     value: 'todo',
     label: 'Todo',
-    icon: h("span", { class: "iconify", 'data-icon': "radix-icons:circle" }),
+    icon: h("span", { class: "iconify i-radix-icons-circle", }),
   },
   {
     value: 'in progress',
     label: 'In Progress',
-    icon: h("span", { class: "iconify", 'data-icon': "solar:stopwatch-linear" }),
+    icon: h("span", { class: "iconify i-radix-icons-stopwatch", }),
   },
   {
     value: 'done',
     label: 'Done',
-    icon: h("span", { class: "iconify", 'data-icon': "radix-icons:check-circled" }),
+    icon: h("span", { class: "iconify i-radix-icons-check-circled", }),
   },
   {
     value: 'canceled',
     label: 'Canceled',
-    icon: h("span", { class: "iconify", 'data-icon': "radix-icons:cross-circled" }),
+    icon: h("span", { class: "iconify i-radix-icons-cross-circled", }),
   },
 ]
 
@@ -47,16 +47,16 @@ export const priorities = [
   {
     label: 'Low',
     value: 'low',
-    icon: h("span", { class: "iconify", 'data-icon': "material-symbols:arrow-downward" }),
+    icon: h("span", { class: "iconify i-material-symbols-arrow-downward", }),
   },
   {
     label: 'Medium',
     value: 'medium',
-    icon: h("span", { class: "iconify", 'data-icon': "material-symbols:arrow-right-alt" }),
+    icon: h("span", { class: "iconify i-material-symbols-arrow-right-alt", }),
   },
   {
     label: 'High',
     value: 'high',
-    icon: h("span", { class: "iconify", 'data-icon': "material-symbols:arrow-upward" }),
+    icon: h("span", { class: "iconify i-material-symbols-arrow-upward", }),
   },
 ]

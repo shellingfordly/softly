@@ -54,8 +54,7 @@ defineProps<DataTablePaginationProps>()
         >
           <span class="sr-only">Go to first page</span>
           <span
-            class="iconify h-4 w-4"
-            data-icon="material-symbols:keyboard-double-arrow-left"
+            class="iconify h-4 w-4 i-material-symbols-keyboard-double-arrow-left"
           />
         </Button>
         <Button
@@ -65,10 +64,7 @@ defineProps<DataTablePaginationProps>()
           @click="table.previousPage()"
         >
           <span class="sr-only">Go to previous page</span>
-          <span
-            class="iconify h-4 w-4"
-            data-icon="material-symbols:chevron-left"
-          />
+          <span class="iconify h-4 w-4 i-material-symbols-chevron-left" />
         </Button>
         <Button
           variant="outline"
@@ -77,10 +73,7 @@ defineProps<DataTablePaginationProps>()
           @click="table.nextPage()"
         >
           <span class="sr-only">Go to next page</span>
-          <span
-            class="iconify h-4 w-4"
-            data-icon="material-symbols:chevron-right"
-          />
+          <span class="iconify h-4 w-4 i-material-symbols-chevron-right" />
         </Button>
         <Button
           variant="outline"
@@ -90,8 +83,7 @@ defineProps<DataTablePaginationProps>()
         >
           <span class="sr-only">Go to last page</span>
           <span
-            class="iconify h-4 w-4"
-            data-icon="material-symbols:keyboard-double-arrow-right"
+            class="iconify h-4 w-4 i-material-symbols-keyboard-double-arrow-right"
           />
         </Button>
       </div>

@@ -19,7 +19,7 @@ const task = computed(() => taskSchema.parse(props.row.original))
         variant="ghost"
         class="flex h-8 w-8 p-0 data-[state=open]:bg-muted"
       >
-        <span class="iconify h-4 w-4" data-icon="mdi:dots-horizontal" />
+        <span class="iconify h-4 w-4 i-mdi-dots-horizontal" />
         <span class="sr-only">Open menu</span>
       </Button>
     </DropdownMenuTrigger>

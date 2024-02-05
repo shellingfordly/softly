@@ -24,10 +24,7 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
   <Popover>
     <PopoverTrigger as-child>
       <Button variant="outline" size="sm" class="h-8 border-dashed">
-        <span
-          class="iconify mr-2 h-4 w-4"
-          data-icon="radix-icons:plus-circled"
-        />
+        <span class="iconify mr-2 h-4 w-4 i-radix-icons-plus-circled" />
         {{ title }}
         <template v-if="selectedValues.size > 0">
           <Separator orientation="vertical" class="mx-2 h-4" />
@@ -102,10 +99,7 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
                   )
                 "
               >
-                <span
-                  :class="['iconify', cn('h-4 w-4')]"
-                  data-icon="mdi:check"
-                />
+                <span :class="['iconify i-mdi-check', cn('h-4 w-4')]" />
               </div>
               <component :is="option.icon" />
               <span>{{ option.label }}</span>

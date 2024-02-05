@@ -33,37 +33,32 @@ export default {
           <span>{{ title }}</span>
           <span
             v-if="column.getIsSorted() === 'desc'"
-            class="iconify ml-2 h-4 w-4"
-            data-icon="mdi:arrow-down"
+            class="iconify ml-2 h-4 w-4 i-mdi-arrow-down"
           />
           <span
             v-else-if="column.getIsSorted() === 'asc'"
-            class="iconify ml-2 h-4 w-4"
-            data-icon="mdi:arrow-up"
+            class="iconify ml-2 h-4 w-4 i-mdi-arrow-up"
           />
-          <CaretSortIcon v-else class="ml-2 h-4 w-4" />
+          <span v-else class="i-radix-icons-caret-sort ml-2 h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="start">
         <DropdownMenuItem @click="column.toggleSorting(false)">
           <span
-            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70"
-            data-icon="mdi:arrow-up"
+            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70 i-mdi-arrow-up"
           />
           Asc
         </DropdownMenuItem>
         <DropdownMenuItem @click="column.toggleSorting(true)">
           <span
-            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70"
-            data-icon="mdi:arrow-down"
+            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70 i-mdi-arrow-down"
           />
           Desc
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem @click="column.toggleVisibility(false)">
           <span
-            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70"
-            data-icon="radix-icons:eye-none"
+            class="iconify mr-2 h-3.5 w-3.5 text-muted-foreground/70 i-radix-icons-eye-none"
           />
           Hide
         </DropdownMenuItem>

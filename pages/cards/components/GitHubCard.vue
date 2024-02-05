@@ -11,17 +11,14 @@
         class="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground"
       >
         <Button variant="secondary" class="px-3 shadow-none">
-          <span
-            class="iconify h-3 w-3 mr-2"
-            data-icon="material-symbols:star-outline"
-          />
+          <span class="iconify h-3 w-3 mr-2 i-material-symbols-star-outline" />
           <span>Star</span>
         </Button>
         <Separator orientation="vertical" class="h-[20px]" />
         <DropdownMenu>
           <DropdownMenuTrigger as-child>
             <Button variant="secondary" class="px-2 shadow-none">
-              <span class="iconify w-4 h-4" data-icon="tabler:chevron-down" />
+              <span class="iconify w-4 h-4 i-mdi-chevron-down" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" :align-offset="-5" class="w-[200px]">
@@ -34,7 +31,7 @@
             <DropdownMenuCheckboxItem>Inspiration</DropdownMenuCheckboxItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <span class="iconify mr-2 h-4 w-4" data-icon="ic:baseline-plus" />
+              <span class="iconify mr-2 h-4 w-4 i-mdi-plus" />
               Create List
             </DropdownMenuItem>
           </DropdownMenuContent>
@@ -45,16 +42,12 @@
       <div class="flex space-x-4 text-sm text-muted-foreground">
         <div class="flex items-center">
           <span
-            class="iconify h-3 w-3 fill-sky-400 text-sky-400"
-            data-icon="mdi:circle"
+            class="iconify h-3 w-3 fill-sky-400 text-sky-400 i-mdi-circle"
           />
           <span>TypeScript</span>
         </div>
         <div class="flex items-center">
-          <span
-            class="iconify h-3 w-3 mr-1"
-            data-icon="material-symbols:star-outline"
-          />
+          <span class="iconify h-3 w-3 mr-1 i-material-symbols-star-outline" />
           <span>20k</span>
         </div>
         <div>Updated April 2023</div>

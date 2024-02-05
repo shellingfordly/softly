@@ -12,9 +12,10 @@ function onClick() {
       <Input class="w-[500px]" placeholder="search" />
     </div>
 
-    <div class="flex items-center space-x-1">
+    <div class="flex items-center space-x-2">
       <Toggle aria-label="Toggle italic" @click="onClick">
-        B
+        <span v-if="isDark" class="i-material-symbols-light-mode" />
+        <span v-else class="i-material-symbols-dark-mode" />
       </Toggle>
 
       <Popover>

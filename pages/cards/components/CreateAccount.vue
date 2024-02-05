@@ -11,11 +11,11 @@
     <CardContent class="grid gap-4">
       <div class="grid grid-cols-2 gap-6">
         <Button variant="outline">
-          <span class="iconify mr-2 h-4 w-4" data-icon="mdi:github"></span>
+          <span class="iconify mr-2 h-4 w-4 i-mdi-github" />
           Github
         </Button>
         <Button variant="outline">
-          <span class="iconify mr-2 h-4 w-4" data-icon="mdi:google"></span>
+          <span class="iconify mr-2 h-4 w-4 i-mdi-google" />
           Google
         </Button>
       </div>

@@ -19,10 +19,7 @@ const columns = computed(() => props.table.getAllColumns()
   <DropdownMenu>
     <DropdownMenuTrigger as-child>
       <Button variant="outline" size="sm" class="ml-auto hidden h-8 lg:flex">
-        <span
-          class="iconify mr-2 h-4 w-4"
-          data-icon="radix-icons:mixer-horizontal"
-        />
+        <span class="iconify mr-2 h-4 w-4 i-radix-icons-mixer-horizontal" />
         View
       </Button>
     </DropdownMenuTrigger>
