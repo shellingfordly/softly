@@ -14,8 +14,10 @@ function onClick() {
 
     <div class="flex items-center space-x-2">
       <Toggle aria-label="Toggle italic" @click="onClick">
-        <span v-if="isDark" class="i-material-symbols-light-mode" />
-        <span v-else class="i-material-symbols-dark-mode" />
+        <div>
+          <span v-show="isDark" class="i-material-symbols-light-mode" />
+          <span v-show="!isDark" class="i-material-symbols-dark-mode" />
+        </div>
       </Toggle>
 
       <Popover>
