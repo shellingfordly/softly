@@ -4,7 +4,7 @@ import Slider from "./slider.vue";
 import Content from "./content.vue";
 </script>
 <template>
-  <div class="flex h-full">
+  <div class="flex w-full h-full">
     <Slider />
     <div class="flex-1 overflow-hidden">
       <Header />

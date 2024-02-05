@@ -38,7 +38,7 @@
           <Select default-value="2">
             <SelectTrigger
               id="security-level"
-              class="line-clamp-1 w-full truncate"
+              class="flex line-clamp-1 w-full truncate"
             >
               <SelectValue placeholder="Select level" />
             </SelectTrigger>
@@ -71,7 +71,7 @@
         />
       </div>
     </CardContent>
-    <CardFooter class="justify-between space-x-2">
+    <CardFooter class="flex justify-between space-x-2">
       <Button variant="ghost">
         Cancel
       </Button>

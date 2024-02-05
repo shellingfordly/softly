@@ -1,10 +1,3 @@
-<!-- <script setup lang="ts">
-import ChevronDownIcon from '~icons/radix-icons/chevron-down'
-import CircleIcon from '~icons/radix-icons/circle'
-import PlusIcon from '~icons/radix-icons/plus'
-import StarIcon from '~icons/radix-icons/star'
-</script> -->
-
 <template>
   <Card>
     <CardHeader class="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
@@ -18,14 +11,17 @@ import StarIcon from '~icons/radix-icons/star'
         class="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground"
       >
         <Button variant="secondary" class="px-3 shadow-none">
-          <StarIcon class="mr-2 h-4 w-4" />
-          Star
+          <span
+            class="iconify h-3 w-3 mr-2"
+            data-icon="material-symbols:star-outline"
+          />
+          <span>Star</span>
         </Button>
         <Separator orientation="vertical" class="h-[20px]" />
         <DropdownMenu>
           <DropdownMenuTrigger as-child>
             <Button variant="secondary" class="px-2 shadow-none">
-              <ChevronDownIcon class="h-4 w-4 text-secondary-foreground" />
+              <span class="iconify w-4 h-4" data-icon="tabler:chevron-down" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" :align-offset="-5" class="w-[200px]">
@@ -38,7 +34,8 @@ import StarIcon from '~icons/radix-icons/star'
             <DropdownMenuCheckboxItem>Inspiration</DropdownMenuCheckboxItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <PlusIcon class="mr-2 h-4 w-4" /> Create List
+              <span class="iconify mr-2 h-4 w-4" data-icon="ic:baseline-plus" />
+              Create List
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
@@ -47,12 +44,18 @@ import StarIcon from '~icons/radix-icons/star'
     <CardContent>
       <div class="flex space-x-4 text-sm text-muted-foreground">
         <div class="flex items-center">
-          <CircleIcon class="mr-1 h-3 w-3 fill-sky-400 text-sky-400" />
-          TypeScript
+          <span
+            class="iconify h-3 w-3 fill-sky-400 text-sky-400"
+            data-icon="mdi:circle"
+          />
+          <span>TypeScript</span>
         </div>
         <div class="flex items-center">
-          <StarIcon class="mr-1 h-3 w-3" />
-          20k
+          <span
+            class="iconify h-3 w-3 mr-1"
+            data-icon="material-symbols:star-outline"
+          />
+          <span>20k</span>
         </div>
         <div>Updated April 2023</div>
       </div>
