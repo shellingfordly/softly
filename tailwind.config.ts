@@ -83,6 +83,12 @@ module.exports = {
   },
   plugins: [animate, iconsPlugin(
     {
+      extraProperties: {
+        display: 'inline-block',
+        height: '1.3em',
+        width: '1.3em',
+        'vertical-align': 'text-bottom',
+      },
       collections: getIconCollections([
         "mdi",
         "radix-icons",
