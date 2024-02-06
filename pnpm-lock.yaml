@@ -44,6 +44,9 @@ dependencies:
   vue:
     specifier: ^3.4.15
     version: 3.4.15(typescript@5.3.3)
+  vue-router:
+    specifier: '4'
+    version: 4.2.5(vue@3.4.15)
   vue-sonner:
     specifier: ^1.0.3
     version: 1.0.3
@@ -2409,7 +2412,6 @@ packages:
 
   /@vue/devtools-api@6.5.1:
     resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
-    dev: true
 
   /@vue/reactivity@3.4.15:
     resolution: {integrity: sha512-55yJh2bsff20K5O84MxSvXKPHHt17I2EomHznvFiJCAZpJTNW8IuLj1xZWMLELRhBK3kkFV/1ErZGHJfah7i7w==}
@@ -7772,7 +7774,6 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.5.1
       vue: 3.4.15(typescript@5.3.3)
-    dev: true
 
   /vue-screen-utils@1.0.0-beta.13(vue@3.4.15):
     resolution: {integrity: sha512-EJ/8TANKhFj+LefDuOvZykwMr3rrLFPLNb++lNBqPOpVigT2ActRg6icH9RFQVm4nHwlHIHSGm5OY/Clar9yIg==}
