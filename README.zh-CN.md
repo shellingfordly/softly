@@ -1,4 +1,7 @@
-# SOFTLY
+<h1 style="display: flex; justify-content: center;"> 
+<img style="margin-right: 10px" src="./public/logo.svg" />
+SOFTLY
+</h1>
 
 [SOFTLY](https://github.com/shellingfordly/softly)是一个轻量、柔和的管理后台 web 应用。本项目使用[Shadcn/UI](https://www.shadcn-vue.com/)构建页面。您可以灵活地安装所需的组件，并自由地修改组件代码，然后根据需要定制组件。
 

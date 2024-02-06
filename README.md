@@ -1,4 +1,7 @@
-# SOFTLY
+<h1 style="display: flex; justify-content: center;"> 
+<img style="margin-right: 10px" src="./public/logo.svg" />
+SOFTLY
+</h1>
 
 [SOFTLY](https://github.com/shellingfordly/softly) is a light and softly web software of admin site. This project uses [Shadcn/UI](https://www.shadcn-vue.com/) to build a page. You have the flexibility to install the required components, and freely modify the component code, then customize the components to your needs.
 
