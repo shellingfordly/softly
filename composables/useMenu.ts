@@ -27,6 +27,10 @@ export function useMenu() {
       path: "/music"
     },
     {
+      name: "icons",
+      path: "/icons"
+    },
+    {
       name: "About",
       path: "/about"
     },
