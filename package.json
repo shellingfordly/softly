@@ -11,8 +11,6 @@
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.7.4",
-    "@iconify-json/lucide": "^1.1.162",
-    "@iconify-json/mdi": "^1.1.64",
     "@iconify/json": "^2.2.179",
     "@nuxtjs/tailwindcss": "^6.11.0",
     "@vueuse/core": "^10.7.2",

@@ -52,12 +52,6 @@ devDependencies:
   '@egoist/tailwindcss-icons':
     specifier: ^1.7.4
     version: 1.7.4(tailwindcss@3.4.1)
-  '@iconify-json/lucide':
-    specifier: ^1.1.162
-    version: 1.1.162
-  '@iconify-json/mdi':
-    specifier: ^1.1.64
-    version: 1.1.64
   '@iconify/json':
     specifier: ^2.2.179
     version: 2.2.179
@@ -804,18 +798,6 @@ packages:
       - '@vue/composition-api'
       - vue
     dev: false
-
-  /@iconify-json/lucide@1.1.162:
-    resolution: {integrity: sha512-qmyZP9dTKN1J+ZNxzpqery29qysl9507tPqkGhRUjIJT/AhVxPZ1EY29ISg+jqqoCOhMvl+mR56z5LFb6KH37w==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
-  /@iconify-json/mdi@1.1.64:
-    resolution: {integrity: sha512-zGeo5TjhNFAY6FmSDBLAzDO811t77r6v/mDi7CAL9w5eXqKez6bIjk8R9AL/RHIeq44ALP4Ozr4lMqFTkHr7ug==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
 
   /@iconify/json@2.2.179:
     resolution: {integrity: sha512-PcbNPyNmd8NdyY8ad71v3xIv3G4WemRkK+nu64YUJlXBiU/6VMvI73ggP84VexV07pPnwoazBSZ6DdKH3F45aA==}
