@@ -90,8 +90,18 @@ module.exports = {
         'vertical-align': 'text-bottom',
       },
       collections: getIconCollections([
+        "ic",
         "mdi",
+        "noto",
+        "solar",
+        "carbon",
+        "line-md",
+        "twemoji",
+        "openmoji",
+        "meteocons",
         "radix-icons",
+        "svg-spinners",
+        "fluent-emoji",
         "material-symbols"
       ])
     }
