@@ -1,6 +1,4 @@
 <script setup lang="ts">
-// import ChevronDownIcon from '~icons/radix-icons/chevron-down'
-
 const sofiaRole = ref("Owner");
 const jacksonRole = ref("Member");
 </script>
@@ -17,7 +15,7 @@ const jacksonRole = ref("Member");
       <div class="flex items-center justify-between space-x-4">
         <div class="flex items-center space-x-4">
           <Avatar>
-            <AvatarImage src="/avatars/01.png" />
+            <AvatarImage src="/imgs/01.png" />
             <AvatarFallback>OM</AvatarFallback>
           </Avatar>
           <div>
@@ -33,7 +31,9 @@ const jacksonRole = ref("Member");
           <PopoverTrigger as-child>
             <Button variant="outline" class="ml-auto">
               {{ sofiaRole }}
-              <ChevronDownIcon class="ml-2 h-4 w-4 text-muted-foreground" />
+              <span
+                class="ml-2 h-4 w-4 text-muted-foreground i-mdi-chevron-down"
+              />
             </Button>
           </PopoverTrigger>
           <PopoverContent class="p-0" align="end">
@@ -87,7 +87,7 @@ const jacksonRole = ref("Member");
       <div class="flex items-center justify-between space-x-4">
         <div class="flex items-center space-x-4">
           <Avatar>
-            <AvatarImage src="/avatars/02.png" />
+            <AvatarImage src="/imgs/02.png" />
             <AvatarFallback>JL</AvatarFallback>
           </Avatar>
           <div>
@@ -103,7 +103,9 @@ const jacksonRole = ref("Member");
           <PopoverTrigger as-child>
             <Button variant="outline" class="ml-auto">
               {{ jacksonRole }}
-              <ChevronDownIcon class="ml-2 h-4 w-4 text-muted-foreground" />
+              <span
+                class="ml-2 h-4 w-4 text-muted-foreground i-mdi-chevron-down"
+              />
             </Button>
           </PopoverTrigger>
           <PopoverContent class="p-0" align="end">

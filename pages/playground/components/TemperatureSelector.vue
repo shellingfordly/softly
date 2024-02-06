@@ -5,8 +5,6 @@ const props = defineProps<{
   defaultValue: SliderRootProps["defaultValue"];
 }>();
 
-console.log(props);
-
 const value = ref(props.defaultValue);
 </script>
 

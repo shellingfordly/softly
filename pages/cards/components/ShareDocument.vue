@@ -22,7 +22,7 @@
           <div class="flex items-center justify-between space-x-4">
             <div class="flex items-center space-x-4">
               <Avatar>
-                <AvatarImage src="/avatars/03.png" />
+                <AvatarImage src="/imgs/03.png" />
                 <AvatarFallback>OM</AvatarFallback>
               </Avatar>
               <div>
@@ -51,7 +51,7 @@
           <div class="flex items-center justify-between space-x-4">
             <div class="flex items-center space-x-4">
               <Avatar>
-                <AvatarImage src="/avatars/05.png" />
+                <AvatarImage src="/imgs/05.png" />
                 <AvatarFallback>IN</AvatarFallback>
               </Avatar>
               <div>
@@ -80,7 +80,7 @@
           <div class="flex items-center justify-between space-x-4">
             <div class="flex items-center space-x-4">
               <Avatar>
-                <AvatarImage src="/avatars/01.png" />
+                <AvatarImage src="/imgs/01.png" />
                 <AvatarFallback>SD</AvatarFallback>
               </Avatar>
               <div>
