@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const route = useRoute();
-
-const getVariant = (path: string) =>
-  route.path === path ? "secondary" : "ghost";
-
+import MenuItem from "./menu-item.vue";
 const menus = useMenu();
 </script>
 <template>
@@ -15,14 +11,7 @@ const menus = useMenu();
       <span>SOFTLY</span>
     </div>
     <div class="p-2 space-y-3">
-      <Button
-        v-for="menu in menus"
-        @click="$router.push(menu.path)"
-        class="w-full text-left"
-        :variant="getVariant(menu.path)"
-      >
-        <div class="text-left w-full">{{ menu.name }}</div>
-      </Button>
+      <menu-item v-for="menu in menus" :key="menu.path" :menu="menu" />
     </div>
   </div>
 </template>
