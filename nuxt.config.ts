@@ -8,5 +8,4 @@ export default defineNuxtConfig({
     componentDir: "./components/ui",
   },
   css: ["/styles/tailwind.css"],
-
 });

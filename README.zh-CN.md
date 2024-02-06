@@ -67,3 +67,11 @@ pnpm run preview
 - tasks
 
 ![tasks](./assets/tasks.png)
+
+- playground
+
+![playground](./assets/playground.png)
+
+- icons
+
+![icons](./assets/icons.png)

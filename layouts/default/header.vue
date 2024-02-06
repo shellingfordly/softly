@@ -13,6 +13,14 @@ function onClick() {
     </div>
 
     <div class="flex items-center space-x-2">
+      <Toggle aria-label="Toggle italic">
+        <NuxtLink
+          to="https://github.com/shellingfordly/softly"
+          target="__blank"
+        >
+          <span class="i-mdi-github" />
+        </NuxtLink>
+      </Toggle>
       <Toggle aria-label="Toggle italic" @click="onClick">
         <div>
           <span v-show="isDark" class="i-material-symbols-light-mode" />
