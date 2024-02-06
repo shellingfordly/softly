@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import Header from "./header.vue";
-import Slider from "./slider.vue";
+import Menu from "./menu.vue";
 import Content from "./content.vue";
 </script>
 <template>
   <div class="flex w-full h-full">
-    <Slider />
+    <Menu />
     <div class="flex-1 overflow-hidden">
       <Header />
       <Content>
