@@ -1,8 +1,8 @@
 # SOFTLY
 
-[SOFTLY](https://github.com/shellingfordly/softly) is a light and softly web software of admin site. This project uses [Shadcn/UI](https://www.shadcn-vue.com/) to build a page. You have the flexibility to install the required components, and freely modify the component code, then customize the components to your needs.
+[SOFTLY](https://github.com/shellingfordly/softly)是一个轻量、柔和的管理后台 web 应用。本项目使用[Shadcn/UI](https://www.shadcn-vue.com/)构建页面。您可以灵活地安装所需的组件，并自由地修改组件代码，然后根据需要定制组件。
 
-This project is mainly for learning the implementation demo. The current page content and data are from [shadcn-vue](https://www.shadcn-vue.com/examples/dashboard.html).
+本项目主要用于学习而实现的 Demo，目前页面内容和数据都来自[shadcn-vue](https://www.shadcn-vue.com/examples/dashboard.html).
 
 ## Document
 
@@ -14,7 +14,7 @@ This project is mainly for learning the implementation demo. The current page co
 
 ## Setup
 
-Make sure to install the dependencies:
+安装依赖
 
 ```bash
 pnpm install
@@ -22,7 +22,7 @@ pnpm install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+启动服务器 `http://localhost:3000`:
 
 ```bash
 pnpm run dev
@@ -30,13 +30,13 @@ pnpm run dev
 
 ## Production
 
-Build the application for production:
+打包生产环境
 
 ```bash
 pnpm run build
 ```
 
-Locally preview production build:
+本地预览生产构建
 
 ```bash
 pnpm run preview
