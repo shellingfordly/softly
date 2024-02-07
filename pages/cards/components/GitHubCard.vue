@@ -18,7 +18,7 @@
         <DropdownMenu>
           <DropdownMenuTrigger as-child>
             <Button variant="secondary" class="px-2 shadow-none">
-              <span class="iconify w-4 h-4 i-mdi-chevron-down" />
+              <span class="w-4 h-4 i-mdi-chevron-down" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" :align-offset="-5" class="w-[200px]">

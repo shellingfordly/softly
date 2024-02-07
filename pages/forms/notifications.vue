@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import FormsLayout from "./layouts/FormsLayout.vue";
-import ProfileForm from "./components/ProfileForm.vue";
+import NotificationsForm from "./components/NotificationsForm.vue";
 </script>
 
 <template>
   <FormsLayout>
-    <ProfileForm />
+    <NotificationsForm />
   </FormsLayout>
 </template>
