@@ -4,6 +4,14 @@ import { useRoute, useRouter } from "vue-router";
 const route = useRoute();
 const router = useRouter();
 const menus = useMenu();
+
+function getVariant(path: string) {
+  if (path === "/") {
+    return route.path === path ? "secondary" : "ghost";
+  } else {
+    return route.path.includes(path) ? "secondary" : "ghost";
+  }
+}
 </script>
 
 <template>
@@ -17,7 +25,7 @@ const menus = useMenu();
     <div class="p-2 space-y-3">
       <Button
         v-for="menu in menus"
-        :variant="route.path === menu.path ? 'secondary' : 'ghost'"
+        :variant="getVariant(menu.path)"
         class="w-full justify-start"
         @click="router.push(menu.path)"
       >
