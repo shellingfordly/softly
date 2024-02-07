@@ -9,10 +9,9 @@ const className = computed(() =>
 );
 </script>
 <template>
-  <div :class="[className, 'w-full p-3 rounded-md text-sm hover:bg-accent']">
-    <NuxtLink class="text-left w-full h-full" :to="menu.path">
+  <div :class="[className, 'w-full rounded-md text-sm hover:bg-accent']">
+    <NuxtLink class="inline-block p-3 w-full h-full text-left" :to="menu.path">
       {{ menu.name }}
     </NuxtLink>
   </div>
 </template>
-<style scoped></style>

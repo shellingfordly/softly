@@ -4,6 +4,10 @@ const isDark = useDark();
 function onClick() {
   isDark.value = !isDark.value;
 }
+
+function onToGithub() {
+  window.open("https://github.com/shellingfordly/softly");
+}
 </script>
 
 <template>
@@ -13,13 +17,8 @@ function onClick() {
     </div>
 
     <div class="flex items-center space-x-2">
-      <Toggle aria-label="Toggle italic">
-        <NuxtLink
-          to="https://github.com/shellingfordly/softly"
-          target="__blank"
-        >
-          <span class="i-mdi-github" />
-        </NuxtLink>
+      <Toggle aria-label="Toggle italic" @click="onToGithub">
+        <span class="i-mdi-github" />
       </Toggle>
       <Toggle aria-label="Toggle italic" @click="onClick">
         <div>
@@ -104,4 +103,3 @@ function onClick() {
     </div>
   </div>
 </template>
-<style scoped></style>
