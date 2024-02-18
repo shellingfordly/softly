@@ -49,7 +49,9 @@ pnpm run preview
 
 - [Nuxt3](https://nuxt.com/)
 - [shadcn-vue](https://www.shadcn-vue.com/)
+- [vue3](https://github.com/vuejs/core)
 - [vueuse](https://vueuse.org/)
+- [tailwind css](https://github.com/tailwindlabs/tailwindcss)
 - [iconify](https://iconify.design/)
 
 ## Preview
