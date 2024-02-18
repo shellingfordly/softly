@@ -48,9 +48,9 @@
         </div>
         <div class="flex items-center">
           <span class="iconify h-3 w-3 mr-1 i-material-symbols-star-outline" />
-          <span>20k</span>
+          <span>48.8k</span>
         </div>
-        <div>Updated April 2023</div>
+        <div>Updated April 2024.02</div>
       </div>
     </CardContent>
   </Card>
